@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <nav>
+    <div class="logo">
+        <h2>Portfolio</h2>
+      </div>
+        <div>
+          <ul>
+            <li >
+              <a href="portfolio.html" target="_blank">Home</a>
+            </li>
+            <li>
+              <a href="about.html" target="_blank">About</a>
+            </li>
+            <li >
+                <a  href="skills.html" target="_blank">Skills</a>
+              </li>
+            <li>
+              <a  href="projects.html" target="_blank">Projects</a>
+            </li>
+            <li>
+                <a href="blog.html" target="_blank">Blog</a>
+              </li>
+              <li>
+                <a href="contact.html" class="active" target="_blank">Contact</a>
+              </li>
+          </ul>
+        </div>
+      </nav>
+    <form>
+        <h2>
+        Contact Us
+    </h2>
+    <hr>
+    <div class="mail">
+    <label for="email">Email Address *</label>
+    <input type="email" name="mail" id="mail" placeholder="example123@gmail.com">
+</div>
+<div class="name">
+    <label for="name">Name *</label>
+    <input type="text" name="namec" id="name" placeholder="Enter your name">
+</div>
+<div class="number">
+    <label for="phoneNo">Phone Number *</label>
+    <input type="tel" name="phone" id="phone" placeholder="1234567890">
+</div>
+<div class="quiry">
+    <label for="Quiry">What is your Quiry? *</label>
+    <textarea name="quiry" id="quiry" cols="50" rows="5" placeholder="Enter your quiry"></textarea>
+</div>
+<div class="radio">
+    <label for="radio">Are you a member?</label>
+    <input type="radio" name="yes" id="yes">Yes
+    <input type="radio" name="yes" id="no">No
+</div>
+<button id="submit">Submit</button>
+<button id="cancel">Cancel</button>
+    </form>
+    <script src="contact.js"></script>
+</body>
+</html>
